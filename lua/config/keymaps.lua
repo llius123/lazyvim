@@ -9,3 +9,6 @@ map("n", "<C-.>", ":bnext<CR>", opts)
 
 -- Move to the previous tab with Ctrl-Left
 map("n", "<C-,>", ":bprevious<CR>", opts)
+
+-- New file like vscode with Ctrl-N
+vim.keymap.set("n", "<C-n>", "<cmd>vnew<CR>", { noremap = true, silent = true })

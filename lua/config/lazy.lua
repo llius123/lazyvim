@@ -52,3 +52,5 @@ require("telescope").setup({
     },
   },
 })
+
+-- vim.cmd([[highlight VertSplit guibg=#FFA500 guifg=#FFA500]])

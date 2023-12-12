@@ -11,4 +11,7 @@ map("n", "<C-.>", ":bnext<CR>", opts)
 map("n", "<C-,>", ":bprevious<CR>", opts)
 
 -- New file like vscode with Ctrl-N
-vim.keymap.set("n", "<C-n>", "<cmd>vnew<CR>", { noremap = true, silent = true })
+map("n", "<C-n>", "<cmd>vnew<CR>", opts)
+
+-- Open a telescope window to show all the projects
+map("n", "<C-p>", ":Telescope neovim-project discover<CR>", opts)

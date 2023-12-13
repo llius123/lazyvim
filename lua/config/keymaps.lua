@@ -14,4 +14,4 @@ map("n", "<C-,>", ":bprevious<CR>", opts)
 map("n", "<C-n>", "<cmd>vnew<CR>", opts)
 
 -- Open a telescope window to show all the projects
-map("n", "<C-p>", ":Telescope neovim-project discover<CR>", opts)
+map("n", "<C-S-p>", ":Telescope neovim-project discover<CR>", opts)

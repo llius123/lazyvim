@@ -11,3 +11,4 @@ Plugin that list all the projects inside folder defined in the config plugin
 * Neotree
 Focus on tree -> <leader>tf
 Close tree -> <leader>th
+Pannel on the right

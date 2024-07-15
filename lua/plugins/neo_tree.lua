@@ -13,4 +13,11 @@ return {
       desc = "Close Neotree",
     },
   },
+  config = function()
+    require("neo-tree").setup({
+      window = {
+        position = "right",
+      },
+    })
+  end,
 }

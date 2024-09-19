@@ -10,3 +10,6 @@ map("n", "<leader>pm", ":Telescope neovim-project discover<CR>", opts)
 
 -- Open new white tab like super+n vscode
 map("n", "<C-n>", "<cmd>tabnew<CR>", { noremap = true, silent = true })
+
+-- Copy filename
+map("n", "<leader>cfn", ':let @+ = expand("%:t")<CR>', opts)
